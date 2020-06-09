@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet');
-
-.mainIntro {
-	margin-bottom:5;
-	border-radius:5;
-	background-color: #212121;
-	color: #FFF;
-	padding: 1% 0;
-	font-size: 1 em;
-	border: 0;
+.highlights {
+	color:#FFF;
 }
 
 .navbar {
