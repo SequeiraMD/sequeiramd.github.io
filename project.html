@@ -18,6 +18,45 @@
 	<!-- Favicon-->
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 	
+	<!-- Box -->
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 50px auto;
+			max-width: 800px;
+		}
+		.step {
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+			flex-basis: 200px;
+			flex-grow: 1;
+			margin: 10px;
+			padding: 20px;
+			text-align: center;
+			transition: transform 0.2s ease-in-out;
+		}
+		.step:hover {
+			transform: scale(1.1);
+		}
+		.step-number {
+			background-color: #333;
+			border-radius: 50%;
+			color: #fff;
+			display: inline-block;
+			font-size: 24px;
+			height: 50px;
+			line-height: 50px;
+			margin-bottom: 10px;
+			width: 50px;
+		}
+	</style>
+	<!-- End Box -->
+	
 </head>
 <body>
 	<main>
@@ -62,20 +101,68 @@
 	</nav>
 	<!--End of Brand & Navigation-->
 	
-	<!-- Container 2 columns -->
+	<!-- Project 1 -->
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-6">
-				<br>
-				<p style="text-align:center;"><img src="img/undrConst.png" height="250px"></p>
-				<br>
-			</div>
-			<div class="col-sm-6">
-					
-			</div>
+		<div class="container-fluid">
+			<h1>LUC.H2O</h1>
+				<h3>Surface water monitoring to assess forces of land-use change</h3>
 		</div>
 	</div>
-	<!-- End Container -->
+	<div class="container">
+		<p>The non-point pollution capacity of anthropic land use makes its sustainable management essential for maintaining water quality. Work on land use and water
+		quality does not delve into issues of irreversibility of ecological damage by land use change, due in part to a complex interaction between systems.</p>
+		<p>Using a <b><a href="#DPSIR" data-toggle="collapse">DPSIR</a></b> approach that encompasses land use change drivers (D), pressures (P), states (s) impacts (I) and using monitoring as 
+		a response (R), it is intended to achieve a prediction model of impacts on surface water quality related to land use change. To this end, <b><a href="#AI" data-toggle="collapse">abiotic indicators</a></b> associated
+		with land use change will be identified, for later determination of their impacts and influence on abiotic indicators.
+		The moderating/mediating role of driving forces of land use change will also be evaluated.</p>
+		<br>
+		<!-- Questions -->
+		<div id="DPSIR" class="collapse">
+			<hr>
+			<p><b>DPSIR is an acronym for a framework used to analyze and understand complex environmental problems. The framework is composed of five components:</b></p>
+			<p><b>Driving forces:</b> these are the underlying factors that contribute to environmental problems, such as economic, social, and demographic trends.</p>
+			<p><b>Pressures:</b> these are the direct impacts of human activities on the environment, such as pollution, habitat loss, and resource depletion.</p>
+			<p><b>State:</b> this refers to the current status of the environment, including the condition of ecosystems, natural resources, and biodiversity.</p>
+			<p><b>Impacts:</b> these are the effects of environmental problems on human health, well-being, and the economy, such as increased healthcare costs or reduced agricultural productivity.</p>
+			<p><b>Responses:</b> these are the actions taken to address environmental problems, such as policy and regulatory measures, technological innovations, or changes in individual behavior.</p>
+			<p>By analyzing these five components and their interactions, the DPSIR framework provides a comprehensive and systematic approach for understanding and addressing complex environmental issues.</p>
+		</div>
+		
+		<div id="AI" class="collapse">
+			<hr>
+			<p>A water <b>abiotic indicator</b> is a measure of the physical and chemical characteristics of water that can be used to assess its overall health and quality.</p>
+			<p>As an example, turbidity is the amount of suspended particles in water that can affect light penetration and aquatic plant growth, as well as the ability of fish to find food and avoid predators.</p>
+			<p>By monitoring and analyzing these and other abiotic indicators, scientists and water resource managers can gain valuable insights into the health of aquatic ecosystems and take appropriate 
+			actions to protect and improve water quality.</p>
+		</div>
+		
+		<!-- End of Questions -->
+		
+		<div class="step">
+			<div class="step-number">1</div>
+			<h3>Abiotic Indicators</h3>
+			<p>Associated with changes in land use for burnt areas, artificial areas and agricultural areas</p>
+		</div>
+		<div class="step">
+			<div class="step-number">2</div>
+			<h3>Quantification of Impacts</h3>
+			<p>Of fires and artificialization in the alteration of abiotic water indicators</p>
+		</div>
+		<div class="step">
+			<div class="step-number">3</div>
+			<h3>Driving Forces Identification</h3>
+			<p>Of land use change and its influence/mediating role in the variation of abiotic indicators of surface water</p>
+		</div>
+		<div class="step">
+			<div class="step-number">4</div>
+			<h3>Define Responses</h3>
+			<p>Develop a system for predicting the impacts on water quality related to land use change</p>
+		</div>
+		</div>
+		<div class="container">
+				
+		</div>
+	<!-- End Project 1 -->
 	
 	</main>
 <!-- footer -->
